@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'Lato';
+    src: url(../Lato/Lato-Heavy.eot) format('embedded-opentype'),
+    url(../Lato/Lato-Heavy.woff) format('woff'),
+    url(../Lato/Lato-Heavy.woff2) format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url(../Lato/Lato-Regular.eot) format('embedded-opentype'),
+    url(../Lato/Lato-Regular.woff) format('woff'),
+    url(../Lato/Lato-Regular.woff2) format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url(../Lato/Lato-Semibold.eot) format('embedded-opentype'),
+    url(../Lato/Lato-Semibold.woff) format('woff'),
+    url(../Lato/Lato-Semibold.woff2) format('woff2');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url(../Lato/subset-Lato-Light.eot) format('embedded-opentype'),
+    url(../Lato/subset-Lato-Light.woff) format('woff'),
+    url(../Lato/subset-Lato-Light.woff2) format('woff2');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}

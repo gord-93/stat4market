@@ -1,0 +1,14 @@
+.header__circle-button {
+    width: 44px;
+    height: 44px;
+    background: #F4F5F8;
+    border: none;
+    border-radius: 55px;
+    margin: 0 0 0 40px;
+    position: relative;
+    padding: 0;
+}
+
+.header__circle-button:hover {
+    opacity: .6;
+}

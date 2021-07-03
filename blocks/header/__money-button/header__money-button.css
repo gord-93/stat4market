@@ -1,0 +1,15 @@
+.header__money-button {
+    border: none;
+    background-color: #5068A5;
+    color: white;
+    border-radius: 4px;
+    font-size: 13px;
+    line-height: 20px;
+    width: 91px;
+    height: 28px;
+    margin-left: 16px;
+}
+
+.header__money-button:hover {
+    opacity: .6;
+}

@@ -1,0 +1,16 @@
+.header__notice-score {
+    width: 16px;
+    height: 16px;
+    background-color: #EA5DBB;
+    border-radius: 44px;
+    font-size: 8px;
+    line-height: 20px;
+    color: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+}

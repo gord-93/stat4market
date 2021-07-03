@@ -1,0 +1,17 @@
+.payment__link {
+    font-size: 14px;
+    line-height: 20px;
+    margin-right: 40px;
+    text-decoration: none;
+    color: #5068A5;
+}
+
+.payment__link:hover {
+    opacity: .6;
+    color: #EA5DBB;
+    border-bottom: solid 2px #EA5DBB;
+}
+
+.payment__link:last-child {
+    margin-right: 0;
+}

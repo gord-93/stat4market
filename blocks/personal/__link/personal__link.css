@@ -1,0 +1,17 @@
+.personal__link {
+    border: 1px solid #5068A5;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 10px 16px;
+    margin-right: 16px;
+    color: #5068A5;
+    text-decoration: none;
+}
+
+.personal__link:hover {
+    opacity: .6;
+    background-color: #5068A5;
+    color: white;
+}

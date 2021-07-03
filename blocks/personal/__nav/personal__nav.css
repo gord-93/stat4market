@@ -1,0 +1,7 @@
+.personal__nav {
+    margin-top: 24px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}

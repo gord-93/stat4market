@@ -1,0 +1,14 @@
+.header__arrow {
+    width: 12px;
+    height: 12px;
+    margin: 16px 0 16px 4px;
+    background-image: url(../../../images/arrow-place-header.svg);
+    border: none;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.header__arrow:hover {
+    opacity: .6;
+}

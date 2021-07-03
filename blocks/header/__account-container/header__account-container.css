@@ -1,0 +1,6 @@
+.header__account-container {
+    width: 619px;
+    height: 44px;
+    display: flex;
+    flex-direction: row;
+}

@@ -1,0 +1,7 @@
+.header__text_place_user {
+    margin-left: 16px;
+    width: 71px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}

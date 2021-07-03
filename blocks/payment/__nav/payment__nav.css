@@ -1,0 +1,9 @@
+.payment__nav {
+    margin: 24px 0 0 0;
+    width: 658px;
+    height: 27px;
+    border-bottom: solid 1px #EFF1F6;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}

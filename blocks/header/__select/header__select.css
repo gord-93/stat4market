@@ -1,0 +1,10 @@
+.header__select {
+    width: 250px;
+    height: 44px;
+    border: 1px solid #D8DCE9;
+    box-sizing: border-box;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
