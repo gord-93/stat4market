@@ -1,8 +1,8 @@
 @font-face {
     font-family: 'ALS Rubl';
-    src: url('ALSRubl.eot');
-    src: url('ALSRubl.eot?#iefix') format('embedded-opentype'),
-        url('ALSRubl.woff2') format('woff2');
+    src: url('../rouble/rouble.eot');
+    src: url('../rouble/rouble.eot') format('embedded-opentype'),
+        url('../rouble/rouble.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
     font-display: swap;

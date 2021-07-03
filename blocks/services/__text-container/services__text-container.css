@@ -1,0 +1,7 @@
+.services__text-container {
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 1238px;
+}

@@ -1,3 +1,16 @@
 .payment__card-description {
-    
+    margin: 14px 105px 0 24px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.payment__card-description:nth-child(2) {
+    margin-top: 24px;
+}
+
+@media screen and (max-width: 1919px) {
+    .payment__card-description {
+        font-size: 12px;
+        line-height: 16px;
+    }
 }

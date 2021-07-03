@@ -3,6 +3,10 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" 
+        href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" 
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" 
+        crossorigin="anonymous">
         <link href="pages/index.css" rel="stylesheet">
         <title>Stat4Market</title>
     </head>
@@ -17,7 +21,7 @@
                 <div class="header__account-container">
                     <div class="header__money-container">
                         <img class="header__coin-icon" src="./images/icon-coin-place-header.svg" alt="Иконка монеты">
-                        <p class="header__text header__text_place_money-container">9 932.00 &#8381; <span class="header__text header__text_colored">(Хватит &#126; 345 дней)</span></p>
+                        <p class="header__text header__text_place_money-container">9 932.00 <span class="ruble">q</span> <span class="header__text header__text_colored">(Хватит &#126; 345 дней)</span></p>
                         <button class="header__money-button" type="button">Пополнить</button>
                     </div>
                     <button class="header__circle-button" type="button">
@@ -44,52 +48,221 @@
         </section>
         <section class="payment">
             <div class="payment__container">
-                <h2 class="payment__title">Оплата</h2>
+                <h2 class="section__title">Оплата</h2>
                 <nav class="payment__nav">
                     <a class="payment__link" href="#">Пополнение баланса</a>
                     <a class="payment__link" href="#">Детализация расходов</a>
                     <a class="payment__link payment__link_selected" href="#">Тарифы, доп. услуги</a>
                     <a class="payment__link" href="#">История платежей</a>
                 </nav>
-                <div class="payment__cards">
-                    <div class="payment__card">
-                        <p class="payment__card-title"></p>
-                        <p class="payment__card-description"></p>
+                <div class="container payment__cards">
+                    <div class="row payment__cards-row">
+                    <div class="col payment__card">
+                        <p class="payment__card-title">Wildberries — Аналитика</p>
+                        <p class="payment__card-description">Анализ заказов, продаж, остатков, товарная аналитика по каждому складу маркетплейса</p>
                         <table class="payment__card-table">
-                            <tr>
-                                <th>Количество товаров</th>
-                                <th>Месяц</th>
-                                <th>День</th>
-                            </tr>
-                            <tr>
-                                <td>до 50</td>
-                                <td>2 370</td>
-                                <td>79</td>
-                            </tr>
-                            <tr>
-                                <td>до 50</td>
-                                <td>2 370</td>
-                                <td>79</td>
-                            </tr>
-                            <tr>
-                                <td>до 50</td>
-                                <td>2 370</td>
-                                <td>79</td>
-                            </tr>
-                            <tr>
-                                <td>до 50</td>
-                                <td>2 370</td>
-                                <td>79</td>
-                            </tr>
-                            <tr>
-                                <td>до 50</td>
-                                <td>2 370</td>
-                                <td>79</td>
-                            </tr>
+                                <tr>
+                                    <th scope="col">Количество товаров</th>
+                                    <th scope="col">Месяц</th>
+                                    <th scope="col">День</th>
+                                </tr>
+                                <tr>
+                                    <td>до 50</td>
+                                    <td>2 370<span class="ruble">q</span></td>
+                                    <td>79<span class="ruble">q</span></td>
+                                </tr>
+                                <tr>
+                                    <td>от 51 до 100</td>
+                                    <td>2 970<span class="ruble">q</span></td>
+                                    <td>99<span class="ruble">q</span></td>
+                                </tr>
+                                <tr>
+                                    <td>от 101 до 500</td>
+                                    <td>4 470<span class="ruble">q</span></td>
+                                    <td>149<span class="ruble">q</span></td>
+                                </tr>
+                                <tr>
+                                    <td>от 501 до 1000</td>
+                                    <td>7 470<span class="ruble">q</span></td>
+                                    <td>249<span class="ruble">q</span></td>
+                                </tr>
+                                <tr>
+                                    <td>от 1001 до 5000</td>
+                                    <td>10 470<span class="ruble">q</span></td>
+                                    <td>349<span class="ruble">q</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Безлимитный от 5001</td>
+                                    <td>14 970<span class="ruble">q</span></td>
+                                    <td>499<span class="ruble">q</span></td>
+                                </tr>
                         </table>
+                    </div>
+                    <div class="col payment__card">
+                        <p class="payment__card-title">Wildberries — Анализ категорий</p>
+                        <p class="payment__card-description">
+                            Анализ любых категорий, страниц брендов, поисковых запросов, акций. 
+                            Безлимитный доступ к данным по всем товарам со страницы, заказам, остатках на складах, скорости заказов 
+                            и другим метрикам.</p>
+                        <p class="payment__card-description payment__card-description_colored">
+                            Добавление страницы в отслеживание — 99<span class="ruble">q</span>/страница
+                        </p>
+                        <p class="payment__card-description">
+                            Списывается за уникальную страницу, если вдруг удалили страницу и добавили заново — повторно оплата не снимается
+                        </p>
+                        <p class="payment__card-description payment__card-description_bold">Ежедневный мониторинг и обновление страниц:</p>
+                        <table class="payment__card-table">
+                                <tr>
+                                    <th scope="col">Количество товаров</th>
+                                    <th scope="col">Месяц</th>
+                                    <th scope="col">День</th>
+                                </tr>
+                                <tr>
+                                    <td>до 3</td>
+                                    <td>0<span class="ruble">q</span></td>
+                                    <td>0<span class="ruble">q</span></td>
+                                </tr>
+                                <tr>
+                                    <td>от 4 до 10</td>
+                                    <td>0<span class="ruble">q</span></td>
+                                    <td>0<span class="ruble">q</span></td>
+                                </tr>
+                                <tr>
+                                    <td>от 11 до 20</td>
+                                    <td>0<span class="ruble">q</span></td>
+                                    <td>0<span class="ruble">q</span></td>
+                                </tr>
+                                <tr>
+                                    <td>от 21 до 50</td>
+                                    <td>0<span class="ruble">q</span></td>
+                                    <td>0<span class="ruble">q</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Безлимитный от 51 </td>
+                                    <td>0<span class="ruble">q</span></td>
+                                    <td>0<span class="ruble">q</span></td>
+                                </tr>
+                        </table>
+                    </div>
+                    <div class="col payment__card">
+                        <p class="payment__card-title">Wildberries — Позиции товаров</p>
+                        <p class="payment__card-description">
+                            Анализ позиций любых товаров на страницах категорий, бренда, поисковых запросов, акций.
+                        </p>
+                        <p class="payment__card-description payment__card-description_colored">
+                            Добавление нового товара — 29<span class="ruble">q</span>/товар
+                        </p>
+                        <p class="payment__card-description">
+                            Списывается за уникальный товар, если вдруг удалили товар и добавили заново - повторно оплата не списывается.
+                        </p>
+                        <p class="payment__card-description payment__card-description_bold">Ежедневный мониторинг и обновление страниц:</p>
+                        <table class="payment__card-table">
+                                <tr>
+                                    <th scope="col">Количество товаров</th>
+                                    <th scope="col">Месяц</th>
+                                    <th scope="col">День</th>
+                                </tr>
+                                <tr>
+                                    <td>до 20</td>
+                                    <td>870<span class="ruble">q</span></td>
+                                    <td>29<span class="ruble">q</span></td>
+                                </tr>
+                                <tr>
+                                    <td>от 21 до 100</td>
+                                    <td>1 470<span class="ruble">q</span></td>
+                                    <td>49<span class="ruble">q</span></td>
+                                </tr>
+                                <tr>
+                                    <td>от 101 до 500</td>
+                                    <td>2 970<span class="ruble">q</span></td>
+                                    <td>99<span class="ruble">q</span></td>
+                                </tr>
+                                <tr>
+                                    <td>от 501 до 1000</td>
+                                    <td>4 470<span class="ruble">q</span></td>
+                                    <td>149<span class="ruble">q</span></td>
+                                </tr>
+                                <tr>
+                                    <td>от 1001 до 5000</td>
+                                    <td>7 470<span class="ruble">q</span></td>
+                                    <td>249<span class="ruble">q</span></td>
+                                </tr>
+                                <tr>
+                                    <td>от 1001 до 5000</td>
+                                    <td>8 970<span class="ruble">q</span></td>
+                                    <td>299<span class="ruble">q</span></td>
+                                </tr>
+                        </table>
+                    </div>
                     </div>
                 </div>
             </div>
+        </section>
+        <section class="services">
+            <h3 class="section__title">Дополнительные услуги:</h3>
+            <p class="services__subtitle">
+                Помощь от команды Stat4market, основателя сервиса и партнеров, 
+                для увеличения продаж и помощи по работе с маркетплейсом.
+            </p>
+            <article class="services__container">
+                <img class="services__image" src="./images/wb-image-1.jpg" alt="Изображение шестеренок и гаечного ключа">
+                <div class="services__text-container">
+                    <p class="services__title">Оптимизация продаж на маркетплейсе</p>
+                    <p class="services__text">
+                        Наш основной продукт для тех, кто уже 
+                        продаёт на Wildberries, направленный напрямую на увеличение 
+                        вашей прибыли от работы с маркетплейсом. В нашем сервисе уже 
+                        несколько сотен поставщиков и мы понимаем основные ошибки 
+                        поставщиков, которые тормозят их рост и рычаги увеличения 
+                        ваших продаж на маркетплейсах. Наша команда и основатель 
+                        сервиса Дмитрий Бакланов проанализирует ваш бренд, найдут 
+                        точки роста, оптимизации товаров.<br><br>Для начала работы необходимо 
+                        заполнить заявку по ссылке «Заказать».
+                    </p>
+                    <div class="services__footnote-container">
+                        <img class="services__check-icon" src="./images/check_in_circle.svg" alt="Зеленая иконка с галокой">
+                        <p class="services__text services__text_place_footnote">
+                            Вы получите полное понимание своих дальнейших действий для развития 
+                            бренда, также чек-лист из более 30 пунктов по улучшениям или проблемам 
+                            именно вашего бренда для оптимизации, увеличения выручки и прибыли
+                        </p>
+                    </div>
+                </div>
+                <div class="services__price-container">
+                    <del class="services__price services__price_delete">29 900<span class="ruble">q</span></del>
+                    <p class="services__price">24 900<span class="ruble">q</span></p>
+                    <time class="services__time">2 часа</time>
+                    <button class="services__button">Заказать</button>
+                    <button class="services__button">Подробее об услуге</button>
+                </div>
+            </article>
+            <article class="services__container">
+                <img class="services__image" src="./images/wb-image-2.jpg" alt="Изображение людей смотрящих в планшет">
+                <div class="services__text-container">
+                    <p class="services__title">Помощь в выходе на маркетплейс</p>
+                    <p class="services__text">
+                        Продукт для тех кто только собирается выйти на Wildberries. 
+                        Состоит из пошагового плана со всеми этапами выхода на маркетплейс 
+                        до первой поставки а также 2-х часовая консультация с экспертом, 
+                        ответы на все вопросы. Необходимо предварительно заполнить заявку 
+                        по ссылке «Заказать».
+                    </p>
+                    <div class="services__footnote-container">
+                        <img class="services__check-icon" src="./images/check_in_circle.svg" alt="Зеленая иконка с галокой">
+                        <p class="services__text services__text_place_footnote">
+                            Вы получите ответы на все вопросы, которые мешают выйти и поставить 
+                            ваши товары на Wildberries.
+                        </p>
+                    </div>
+                </div>
+                <div class="services__price-container">
+                    <del class="services__price services__price_delete">9 900<span class="ruble">q</span></del>
+                    <p class="services__price">4 900<span class="ruble">q</span></p>
+                    <time class="services__time">2 часа</time>
+                    <button class="services__button">Заказать</button>
+                    <button class="services__button">Подробее об услуге</button>
+                </div>
+            </article>
         </section>
     </body>
 </html>

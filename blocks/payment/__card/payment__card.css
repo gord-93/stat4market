@@ -1,3 +1,26 @@
 .payment__card {
-    
+    width: 573px;
+    max-height: 618px;
+    background-color: #F8F8F8;
+    border-radius: 8px;
+    margin: 32px 32px 0 0;
+    padding: 0;
+}
+
+.payment__card:nth-child(2) .payment__card-title {
+    background: linear-gradient(88.34deg, #EB5757 0%, #FF8D8D 100%);
+}
+
+.payment__card:nth-child(3) .payment__card-title {
+    background: linear-gradient(88.34deg, #6065A7 0%, #8B91DD 100%);
+}
+
+.payment__card:last-child {
+    margin-right: 0;
+}
+
+@media (min-width: 768px) and (max-width: 1919px) {
+    .payment__card {
+        width: 344px;
+    }
 }

@@ -2,7 +2,6 @@
     font-size: 14px;
     line-height: 20px;
     margin-right: 40px;
-    text-decoration: none;
     color: #5068A5;
 }
 
@@ -10,6 +9,7 @@
     opacity: .6;
     color: #EA5DBB;
     border-bottom: solid 2px #EA5DBB;
+    text-decoration: none;
 }
 
 .payment__link:last-child {

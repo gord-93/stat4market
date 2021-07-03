@@ -1,0 +1,5 @@
+.services__image {
+    width: 305px;
+    height: 320px;
+    object-fit: contain;
+}

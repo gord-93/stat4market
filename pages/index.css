@@ -1,8 +1,9 @@
-@import url(../vendor/normalize.css);
+/* @import url(../vendor/normalize.css); */
 @import url(../vendor/fonts/Lato/stylesheet.css);
 @import url(../vendor/fonts/rouble/stylesheet.css);
 @import url(../blocks/body/body.css);
 @import url(../blocks/header/header.css);
+@import url(../blocks/ruble/ruble.css);
 @import url(../blocks/header/__container/header__container.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__select/header__select.css);
@@ -24,9 +25,9 @@
 @import url(../blocks/personal/__nav/personal__nav.css);
 @import url(../blocks/personal/__link/personal__link.css);
 @import url(../blocks/personal/__link/_selected/personal__link_selected.css);
+@import url(../blocks/section/__title/section__title.css);
 @import url(../blocks/payment/payment.css);
 @import url(../blocks/payment/__container/payment__container.css);
-@import url(../blocks/payment/__title/payment__title.css);
 @import url(../blocks/payment/__nav/payment__nav.css);
 @import url(../blocks/payment/__link/payment__link.css);
 @import url(../blocks/payment/__link/_selected/payment__link_selected.css);
@@ -35,3 +36,22 @@
 @import url(../blocks/payment/__card-title/payment__card-title.css);
 @import url(../blocks/payment/__card-description/payment__card-description.css);
 @import url(../blocks/payment/__card-table/payment__card-table.css);
+@import url(../blocks/payment/__card-description/_colored/payment__card-description_colored.css);
+@import url(../blocks/payment/__card-description/_bold/payment__card-description_bold.css);
+@import url(../blocks/payment/payment__cards-row/payment__cards-row.css);
+@import url(../blocks/services/services.css);
+@import url(../blocks/services/__subtitle/services__subtitle.css);
+@import url(../blocks/services/__container/services__container.css);
+@import url(../blocks/services/__image/services__image.css);
+@import url(../blocks/services/__text-container/services__text-container.css);
+@import url(../blocks/services/__title/services__title.css);
+@import url(../blocks/services/__text/services__text.css);
+@import url(../blocks/services/__footnote-container/services__footnote-container.css);
+@import url(../blocks/services/__check-icon/services__check-icon.css);
+@import url(../blocks/services/__price-container/services__price-container.css);
+@import url(../blocks/services/__price/services__price.css);
+@import url(../blocks/services/__price/_delete/services__price_delete.css);
+@import url(../blocks/services/__time/services__time.css);
+@import url(../blocks/services/__button/services__button.css);
+@import url(../blocks/services/__text/_footnote/services__text_place_footnote.css);
+@import url(../blocks/services/__text/_place/_footnote/services__text_place_footnote.css);
