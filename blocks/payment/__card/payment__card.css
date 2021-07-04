@@ -1,5 +1,5 @@
 .payment__card {
-    width: 573px;
+    max-width: 573px;
     max-height: 618px;
     background-color: #F8F8F8;
     border-radius: 8px;
