@@ -1,0 +1,22 @@
+.header__burger {
+    width: 24px;
+    height: 24px;
+    background-image: url(../../../images/burger-icon.svg);
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    margin: 8px 0 8px 36.33px;
+    display: none;
+}
+
+@media screen and (max-width: 1199px) {
+    .header__burger {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .header__burger {
+        margin: auto 0 auto 20.33px;
+    }
+}

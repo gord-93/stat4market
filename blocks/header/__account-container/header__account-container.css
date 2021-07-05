@@ -4,3 +4,18 @@
     display: flex;
     flex-direction: row;
 }
+
+@media screen and (max-width: 1199px) {
+    .header__account-container {
+        width: 356px;
+        margin-left: 36.33px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .header__account-container {
+        width: 81px;
+        height: 32px;
+        margin-left: 20.33px;
+    }
+}

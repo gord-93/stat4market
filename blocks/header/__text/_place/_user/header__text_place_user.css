@@ -5,3 +5,9 @@
     white-space: nowrap;
     overflow: hidden;
 }
+
+@media screen and (max-width: 1199px) {
+    .header__text_place_user {
+        display: none;
+    }
+}

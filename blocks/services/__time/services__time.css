@@ -4,3 +4,15 @@
     line-height: 20px;
     margin-top: 8px;
 }
+
+@media screen and (max-width: 1199px) {
+    .services__time {
+        margin: 0 0 0 24px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .services__time {
+        margin: 0;
+    }
+}

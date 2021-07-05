@@ -1,0 +1,12 @@
+.personal__submenu {
+    list-style: none;
+    width: 100%;
+    padding-left: 18px;
+    padding-right: 18px;
+    background-color: white;
+    border-radius: 4px;
+    font-size: 12px;
+    line-height: 16px;
+    border: 1px solid #D8DCE9;
+    display: none;
+}

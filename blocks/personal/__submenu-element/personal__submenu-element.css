@@ -1,0 +1,13 @@
+.personal__submenu-element {
+    width: 100%;
+    padding: 20px 0 0;
+}
+
+.personal__submenu-element a {
+    color: black;
+
+}
+
+.personal__submenu-element:last-child {
+    padding-bottom: 20px;
+}

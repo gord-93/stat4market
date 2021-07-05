@@ -1,0 +1,20 @@
+.header__logo-name {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    display: none;
+    margin: 10px 0 6.5px 8px;
+    width: 87px;
+}
+
+@media screen and (max-width: 1199px) {
+    .header__logo-name {
+        display: inline;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .header__logo-name {
+        display: none;
+    }
+}

@@ -13,15 +13,18 @@
     <body class="body">
         <header class="header">
             <div class="header__container">
-                <img class="header__logo" src="./images/Stat4Market-logo.svg" alt="Логотип Stat4Market">
+                <div class="header__logo-container">
+                    <img class="header__logo" src="./images/Stat4Market-logo.svg" alt="Логотип Stat4Market">
+                    <p class="header__logo-name">stat<span class="header__logo-name header__logo-name_colored">4</span>market</p>
+                </div>
                 <div class="header__select">
                     <img class="header__brand-icon" src="./images/ozon-logo-place-header.svg" alt="Логотип компании Ozon">
-                    <p class="header__text">Ozon (№28451)</p>
+                    <p class="header__text"><span class="header__text header__text_visible">Ozon&nbsp;</span>(№28451)</p>
                 </div>
                 <div class="header__account-container">
                     <div class="header__money-container">
                         <img class="header__coin-icon" src="./images/icon-coin-place-header.svg" alt="Иконка монеты">
-                        <p class="header__text header__text_place_money-container">9 932.00 <span class="ruble">q</span> <span class="header__text header__text_colored">(Хватит &#126; 345 дней)</span></p>
+                        <p class="header__text header__text_place_money-container">9 932.00 <span class="ruble ruble_size_small">q</span> <span class="header__text header__text_colored">(Хватит &#126; 345 дней)</span></p>
                         <button class="header__money-button" type="button">Пополнить</button>
                     </div>
                     <button class="header__circle-button" type="button">
@@ -34,9 +37,10 @@
                     <p class="header__text header__text_place_user">Александр</p>
                     <button class="header__arrow" type="menu"></button>
                 </div>
+                <button class="header__burger" type="menu"></button>
             </div>
         </header>
-        <!-- <section class="personal">
+        <section class="personal"> 
             <h1 class="personal__title">Личный кабинет</h1>
             <nav class="personal__nav">
                 <a class="personal__link" href="#">Настройки</a>
@@ -44,6 +48,16 @@
                 <a class="personal__link" href="#">Уведомления</a>
                 <a class="personal__link" href="#">Партнёрская программа</a>
                 <a class="personal__link" href="#">Обучение</a>
+            </nav>
+            <nav class="personal__nav-list">
+                <button class="personal__nav-link" href="#">Оплата <img class="personal__arrow-icon" src="./images/arrow_12x12-place-personal.svg" alt="Стрелка вниз"></button>
+                <ul class="personal__submenu">
+                    <li class="personal__submenu-element"><a href="#">Настройки</a></li>
+                    <li class="personal__submenu-element"><a href="#">Оплата</a></li>
+                    <li class="personal__submenu-element"><a href="#">Уведомления</a></li>
+                    <li class="personal__submenu-element"><a href="#">Партнёрская программа</a></li>
+                    <li class="personal__submenu-element"><a href="#">Обучение</a></li>
+                </ul>
             </nav>
         </section>
         <section class="payment">
@@ -57,7 +71,7 @@
                 </nav>
                 <div class="container payment__cards">
                     <div class="row payment__cards-row">
-                    <div class="col payment__card">
+                    <div class="col-md-6 col-lg-6 col-xl-6 col-xxl-4 mr-md-3 mr-lg-auto payment__card">
                         <p class="payment__card-title">Wildberries — Аналитика</p>
                         <p class="payment__card-description">Анализ заказов, продаж, остатков, товарная аналитика по каждому складу маркетплейса</p>
                         <table class="payment__card-table">
@@ -98,14 +112,14 @@
                                 </tr>
                         </table>
                     </div>
-                    <div class="col payment__card">
+                    <div class="col-md-6 col-lg-6 col-xl-6 col-xxl-4 mr-lg-auto payment__card">
                         <p class="payment__card-title">Wildberries — Анализ категорий</p>
                         <p class="payment__card-description">
                             Анализ любых категорий, страниц брендов, поисковых запросов, акций. 
                             Безлимитный доступ к данным по всем товарам со страницы, заказам, остатках на складах, скорости заказов 
                             и другим метрикам.</p>
                         <p class="payment__card-description payment__card-description_colored">
-                            Добавление страницы в отслеживание — 99<span class="ruble">q</span>/страница
+                            Добавление страницы в отслеживание — 99<span class="ruble ruble_size_xs">q</span>/страница
                         </p>
                         <p class="payment__card-description">
                             Списывается за уникальную страницу, если вдруг удалили страницу и добавили заново — повторно оплата не снимается
@@ -144,7 +158,7 @@
                                 </tr>
                         </table>
                     </div>
-                    <div class="col payment__card">
+                    <div class="col-md-12 col-lg-12 col-xl-12 col-xxl-4 payment__card">
                         <p class="payment__card-title">Wildberries — Позиции товаров</p>
                         <p class="payment__card-description">
                             Анализ позиций любых товаров на страницах категорий, бренда, поисковых запросов, акций.
@@ -231,11 +245,15 @@
                     </div>
                 </div>
                 <div class="services__price-container">
-                    <del class="services__price services__price_delete">29 900<span class="ruble">q</span></del>
-                    <p class="services__price">24 900<span class="ruble">q</span></p>
-                    <time class="services__time">2 часа</time>
-                    <button class="services__button">Заказать</button>
-                    <button class="services__button">Подробее об услуге</button>
+                    <div class="services__price-text-container">
+                        <del class="services__price services__price_delete">29 900<span class="ruble ruble_size_xl">q</span></del>
+                        <p class="services__price">24 900<span class="ruble ruble_size_xl">q</span></p>
+                        <time class="services__time">2 часа</time>
+                    </div>
+                    <div class="services__buttons">
+                        <button class="services__button">Заказать</button>
+                        <button class="services__button">Подробее об услуге</button>
+                    </div>
                 </div>
             </article>
             <article class="services__container">
@@ -260,13 +278,17 @@
                     </div>
                 </div>
                 <div class="services__price-container">
-                    <del class="services__price services__price_delete">9 900<span class="ruble">q</span></del>
-                    <p class="services__price">4 900<span class="ruble">q</span></p>
-                    <time class="services__time">2 часа</time>
-                    <button class="services__button">Заказать</button>
-                    <button class="services__button">Подробее об услуге</button>
+                    <div class="services__price-text-container">
+                        <del class="services__price services__price_delete">9 900<span class="ruble ruble_size_xl">q</span></del>
+                        <p class="services__price">4 900<span class="ruble ruble_size_xl">q</span></p>
+                        <time class="services__time">2 часа</time>
+                    </div>
+                    <div class="services__buttons">
+                        <button class="services__button">Заказать</button>
+                        <button class="services__button">Подробее об услуге</button>
+                    </div>
                 </div>
             </article>
-        </section> -->
+        </section>
     </body>
 </html>

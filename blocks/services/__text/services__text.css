@@ -5,3 +5,10 @@
     color: #666666;
     margin-top: 16px;
 }
+
+@media screen and (max-width: 1199px) {
+    .services__text {
+        font-size: 12px;
+        line-height: 16px;
+    }
+}

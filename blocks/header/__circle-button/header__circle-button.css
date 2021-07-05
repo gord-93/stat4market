@@ -12,3 +12,9 @@
 .header__circle-button:hover {
     opacity: .6;
 }
+
+@media screen and (max-width: 1199px) {
+    .header__circle-button {
+        display: none;
+    }
+}

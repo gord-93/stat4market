@@ -1,0 +1,9 @@
+.personal__nav-list {
+    display: none;
+}
+
+@media screen and (max-width: 767px) {
+    .personal__nav-list {
+        display: block;
+    }
+}

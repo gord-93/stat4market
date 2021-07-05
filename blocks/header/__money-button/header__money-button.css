@@ -13,3 +13,16 @@
 .header__money-button:hover {
     opacity: .6;
 }
+
+@media screen and (max-width: 1199px) {
+    .header__money-button {
+        width: 99px;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .header__money-button {
+        display: none;
+    }
+}

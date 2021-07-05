@@ -6,9 +6,13 @@
 @import url(../blocks/ruble/ruble.css);
 @import url(../blocks/header/__container/header__container.css);
 @import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__logo-name/header__logo-name.css);
+@import url(../blocks/header/__logo-container/header__logo-container.css);
+@import url(../blocks/header/__logo-name/_colored/header__logo-name_colored.css);
 @import url(../blocks/header/__select/header__select.css);
 @import url(../blocks/header/__brand-icon/header__brand-icon.css);
 @import url(../blocks/header/__text/header__text.css);
+@import url(../blocks/header/__text/_visible/header__text_visible.css);
 @import url(../blocks/header/__account-container/header__account-container.css);
 @import url(../blocks/header/__money-container/header__money-container.css);
 @import url(../blocks/header/__coin-icon/header__coin-icon.css);
@@ -20,6 +24,7 @@
 @import url(../blocks/header/__notice-score/header__notice-score.css);
 @import url(../blocks/header/__text/_place/_user/header__text_place_user.css);
 @import url(../blocks/header/__arrow/header__arrow.css);
+@import url(../blocks/header/__burger/header__burger.css);
 @import url(../blocks/personal/personal.css);
 @import url(../blocks/personal/__title/personal__title.css);
 @import url(../blocks/personal/__nav/personal__nav.css);
@@ -38,7 +43,7 @@
 @import url(../blocks/payment/__card-table/payment__card-table.css);
 @import url(../blocks/payment/__card-description/_colored/payment__card-description_colored.css);
 @import url(../blocks/payment/__card-description/_bold/payment__card-description_bold.css);
-@import url(../blocks/payment/payment__cards-row/payment__cards-row.css);
+@import url(../blocks/payment/__cards-row/payment__cards-row.css);
 @import url(../blocks/services/services.css);
 @import url(../blocks/services/__subtitle/services__subtitle.css);
 @import url(../blocks/services/__container/services__container.css);
@@ -55,3 +60,13 @@
 @import url(../blocks/services/__button/services__button.css);
 @import url(../blocks/services/__text/_footnote/services__text_place_footnote.css);
 @import url(../blocks/services/__text/_place/_footnote/services__text_place_footnote.css);
+@import url(../blocks/ruble/_size/_small/ruble_size_small.css);
+@import url(../blocks/ruble/_size/_xs/ruble_size_xs.css);
+@import url(../blocks/ruble/_size/_xl/ruble_size_xl.css);
+@import url(../blocks/personal/__nav-link/personal__nav-link.css);
+@import url(../blocks/personal/__nav-list/personal__nav-list.css);
+@import url(../blocks/personal/__submenu-element/personal__submenu-element.css);
+@import url(../blocks/personal/__submenu/personal__submenu.css);
+@import url(../blocks/personal/__arrow-icon/personal__arrow-icon.css);
+@import url(../blocks/services/__price-text-container/services__price-text-container.css);
+@import url(../blocks/services/__buttons/services__buttons.css);

@@ -8,3 +8,19 @@
     flex-direction: row;
     align-items: center;
 }
+
+@media screen and (max-width: 1199px) {
+    .header__select {
+        width: 120px;
+        height: 40px;
+        margin-left: 36.33px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .header__select {
+        width: 93px;
+        height: 32px;
+        margin-left: 20.33px;
+    }
+}

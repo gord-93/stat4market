@@ -4,7 +4,6 @@
     height: 40px;
     background-color: #5068A5;
     border-radius: 4px;
-    margin-top: 24px;
     color: white;
     font-weight: normal;
     font-size: 14px;
@@ -17,4 +16,26 @@
     box-sizing: border-box;
     color: #5068A5;
     margin-top: 16px;
+}
+
+@media screen and (max-width: 1199px) {
+    .services__button {
+        margin: 0 0 0 0;
+        padding: 0;
+        width: 160px;
+    }
+    .services__button:last-child {
+        margin: 0 0 0 16px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .services__button {
+        margin: 0;
+        padding: 0;
+        width: 256px;
+    }
+    .services__button:last-child {
+        margin: 8px 0 0;
+    }
 }

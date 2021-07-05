@@ -5,3 +5,10 @@
     line-height: 20px;
     color: black;
 }
+
+@media screen and (max-width: 1199px) {
+    .services__text_place_footnote {
+        font-size: 12px;
+        line-height: 16px;
+    }
+}

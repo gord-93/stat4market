@@ -4,3 +4,9 @@
     font-size: 14px;
     line-height: 20px;
 }
+
+@media screen and (max-width: 1199px) {
+    .ruble {
+        font-size: 12px;
+    }
+}

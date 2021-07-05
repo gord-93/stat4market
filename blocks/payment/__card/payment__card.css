@@ -1,10 +1,9 @@
 .payment__card {
-    max-width: 573px;
-    max-height: 618px;
     background-color: #F8F8F8;
     border-radius: 8px;
-    margin: 32px 32px 0 0;
+    margin: 32px 0 0 0;
     padding: 0;
+    max-width: 32.1370%;
 }
 
 .payment__card:nth-child(2) .payment__card-title {
@@ -19,8 +18,23 @@
     margin-right: 0;
 }
 
-@media (min-width: 768px) and (max-width: 1919px) {
+@media screen and (max-width: 1199px) {
     .payment__card {
-        width: 344px;
+        max-width: 48.865%;
+    }
+    .payment__card:last-child {
+        max-width: 100%;
+    }
+    .payment__card:last-child .payment__card-table {
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .payment__card {
+        max-width: 100%;
+    }
+    .payment__card:last-child .payment__card-table {
+        max-width: 94%;
     }
 }

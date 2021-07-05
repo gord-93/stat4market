@@ -7,3 +7,21 @@
     flex-direction: row;
     flex-wrap: nowrap;
 }
+
+@media screen and (max-width: 1199px) {
+    .payment__nav {
+        width: 586px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .payment__nav {
+        width: 100%;
+        overflow: hidden;
+        overflow-x: scroll;
+        white-space: nowrap;
+    }
+    .payment__nav::-webkit-scrollbar {
+        display: none;
+    }
+}

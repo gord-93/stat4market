@@ -2,3 +2,9 @@
     color: #5068A5;
     margin-top: 22px;
 }
+
+@media screen and (max-width: 1199px) {
+    .services__price_delete {
+        margin: 0;
+    }
+}

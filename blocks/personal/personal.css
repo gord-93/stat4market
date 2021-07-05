@@ -1,3 +1,15 @@
 .personal {
     margin: 27px 38.5px 0;
 }
+
+@media screen and (max-width: 1199px) {
+    .personal {
+        margin: 29px 16px 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .personal {
+        margin: 33px 16px 0;
+    }
+}

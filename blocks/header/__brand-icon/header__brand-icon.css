@@ -1,5 +1,17 @@
 .header__brand-icon {
     width: 16px;
-    height: 20px;
+    height: 16px;
     margin-left: 52px;
+}
+
+@media screen and (max-width: 1199px) {
+    .header__brand-icon {
+        margin: 10px 0 10px 16px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .header__brand-icon {
+        margin: 8px 0 8px 8px;
+    }
 }
