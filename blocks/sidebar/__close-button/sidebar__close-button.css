@@ -4,7 +4,6 @@
     background-image: url(../../../images/close-button.svg);
     border: none;
     background-color: transparent;
-    position: absolute;
-    bottom: 80px;
-    left: 45%;
+    margin: auto auto 20%;
+    background-repeat: no-repeat;
 }

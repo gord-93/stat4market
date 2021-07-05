@@ -6,7 +6,7 @@ const closeButton = document.querySelector('.sidebar__close-button')
 
 
 function submenuOpen() {
-    personalSubmenu.classList.add('.personal__submenu_opened');
+    personalSubmenu.classList.add('personal__submenu_opened');
 }
 
 function sidebarOpen() {
