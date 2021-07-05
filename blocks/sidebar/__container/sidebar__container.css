@@ -1,0 +1,17 @@
+.sidebar__container {
+    position: fixed; 
+    top: 0;
+    right: 0;
+    width: 320px;
+    height: 100vh;
+    z-index: 3;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 767px) {
+    .sidebar__container {
+        width: 100vw;
+    }
+}

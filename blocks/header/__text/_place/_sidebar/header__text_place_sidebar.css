@@ -1,0 +1,14 @@
+.header__text_place_sidebar {
+    display: block;
+    font-size: 24px;
+    font-weight: 600;
+    width: auto;
+    height: 25px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.header__text_place_sidebar:nth-child(2) {
+    margin-top: 10px;
+    font-size: 16px;
+}

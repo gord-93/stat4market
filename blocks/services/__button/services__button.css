@@ -10,6 +10,10 @@
     line-height: 20px;
 }
 
+.services__button:hover {
+    opacity: .6;
+}
+
 .services__button:last-child {
     background-color: white;
     border: 1px solid #D8DCE9;

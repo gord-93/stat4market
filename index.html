@@ -24,7 +24,7 @@
                 <div class="header__account-container">
                     <div class="header__money-container">
                         <img class="header__coin-icon" src="./images/icon-coin-place-header.svg" alt="Иконка монеты">
-                        <p class="header__text header__text_place_money-container">9 932.00 <span class="ruble ruble_size_small">q</span> <span class="header__text header__text_colored">(Хватит &#126; 345 дней)</span></p>
+                        <p class="header__text header__text_place_money-container">9 932.00 <span class="ruble ruble_place_header">q</span> <span class="header__text header__text_colored">(Хватит &#126; 345 дней)</span></p>
                         <button class="header__money-button" type="button">Пополнить</button>
                     </div>
                     <button class="header__circle-button" type="button">
@@ -119,7 +119,7 @@
                             Безлимитный доступ к данным по всем товарам со страницы, заказам, остатках на складах, скорости заказов 
                             и другим метрикам.</p>
                         <p class="payment__card-description payment__card-description_colored">
-                            Добавление страницы в отслеживание — 99<span class="ruble ruble_size_xs">q</span>/страница
+                            Добавление страницы в отслеживание — 99<span class="ruble">q</span>/страница
                         </p>
                         <p class="payment__card-description">
                             Списывается за уникальную страницу, если вдруг удалили страницу и добавили заново — повторно оплата не снимается
@@ -290,5 +290,24 @@
                 </div>
             </article>
         </section>
+        <div class="sidebar">
+            <div class="sidebar__container">
+                <p class="header__text header__text_place_sidebar">Александр</p>
+                <div class="sidebar__circle-buttons">
+                    <button class="header__circle-button header__circle-button_visible" type="button">
+                        <img class="header__button-icon" src="./images/bell-place-header.svg">
+                        <span class="header__notice-score">11</span>
+                    </button>
+                    <button class="header__circle-button header__circle-button_visible" type="button">
+                        <img class="header__button-icon" src="./images/icon-user-place-header.svg" alt="Иконка пользователя">
+                    </button>
+                </div>
+                <p class="header__text header__text_place_sidebar">9 932.00 <span class="ruble ruble_size_xl">q</span> 
+                <span class="header__text header__text_colored header__text_place_sidebar">(Хватит &#126; 345 дней)</span></p>
+                <button class="header__money-button header__money-button_place_sidebar" type="button">Пополнить</button>
+                <button class="sidebar__close-button" type="button"></button>
+            </div>
+        </div>
+        <script type="module" src="./scripts/index.js"></script>
     </body>
 </html>

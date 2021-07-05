@@ -11,3 +11,7 @@
 .personal__submenu-element:last-child {
     padding-bottom: 20px;
 }
+
+.personal__submenu-element:hover {
+    opacity: .6;
+}

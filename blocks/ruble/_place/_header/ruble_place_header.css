@@ -1,0 +1,11 @@
+@media screen and (max-width: 1199px) {
+    .ruble_place_header {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .ruble_place_header {
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,11 @@
+.sidebar__circle-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+    width: 300px;
+    height: 44px;
+    margin: 50px auto 0;
+}
+

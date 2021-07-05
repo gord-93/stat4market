@@ -2,8 +2,10 @@
     margin: 16px 0 16px 20px;
 }
 
+
+
 @media screen and (max-width: 767px) {
     .services__check-icon {
-        margin: 8px 0 92px 8px;
+        margin: 12px 0 auto 8px;
     }
 }

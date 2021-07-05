@@ -1,0 +1,10 @@
+.sidebar__close-button {
+    width: 30px;
+    height: 30px;
+    background-image: url(../../../images/close-button.svg);
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    bottom: 80px;
+    left: 45%;
+}

@@ -4,6 +4,8 @@
 @import url(../blocks/body/body.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/ruble/ruble.css);
+@import url(../blocks/ruble/_place/_header/ruble_place_header.css);
+@import url(../blocks/ruble/_size/_xl/ruble_size_xl.css);
 @import url(../blocks/header/__container/header__container.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__logo-name/header__logo-name.css);
@@ -60,9 +62,6 @@
 @import url(../blocks/services/__button/services__button.css);
 @import url(../blocks/services/__text/_footnote/services__text_place_footnote.css);
 @import url(../blocks/services/__text/_place/_footnote/services__text_place_footnote.css);
-@import url(../blocks/ruble/_size/_small/ruble_size_small.css);
-@import url(../blocks/ruble/_size/_xs/ruble_size_xs.css);
-@import url(../blocks/ruble/_size/_xl/ruble_size_xl.css);
 @import url(../blocks/personal/__nav-link/personal__nav-link.css);
 @import url(../blocks/personal/__nav-list/personal__nav-list.css);
 @import url(../blocks/personal/__submenu-element/personal__submenu-element.css);
@@ -70,3 +69,12 @@
 @import url(../blocks/personal/__arrow-icon/personal__arrow-icon.css);
 @import url(../blocks/services/__price-text-container/services__price-text-container.css);
 @import url(../blocks/services/__buttons/services__buttons.css);
+@import url(../blocks/personal/__submenu/_opened/personal__submenu_opened.css);
+@import url(../blocks/sidebar/sidebar.css);
+@import url(../blocks/sidebar/__circle-buttons/sidebar__circle-buttons.css);
+@import url(../blocks/sidebar/__container/sidebar__container.css);
+@import url(../blocks/header/__circle-button/_visible/header__circle-button_visible.css);
+@import url(../blocks/header/__text/_place/_sidebar/header__text_place_sidebar.css);
+@import url(../blocks/header/__money-button/_place/_sidebar/header__money-button_place_sidebar.css);
+@import url(../blocks/sidebar/_opened/sidebar_opened.css);
+@import url(../blocks/sidebar/__close-button/sidebar__close-button.css);
